@@ -129,7 +129,7 @@ export const Contact = () => {
   }, [submitStatus]);
 
   return (
-    <section className='min-h-screen pt-20' id='contact'>
+    <section className='min-h-screen pt-20 mt-32' id='contact'>
       <div className='container mx-auto px-4'>
         <AnimatedTitle text='Contacto' />
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>

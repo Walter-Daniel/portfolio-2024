@@ -1,18 +1,18 @@
-import journal1 from '../assets/journal1.jpeg';
+import journal1 from '../assets/journal.jpeg';
 import journal2 from '../assets/journal2.jpeg';
 
-import turismo1 from '../assets/turismo1.jpg';
+import turismo1 from '../assets/turismo-ar.jpeg';
 import turismo2 from '../assets/turismo2.jpeg';
 
-import astro1 from '../assets/astrowiki.png';
+import astro1 from '../assets/astrowiki.jpeg';
 import astro2 from '../assets/astro2.jpeg';
 
 //Purple-Shop
-import pshop1 from '../assets/pshop1.png';
+import pshop1 from '../assets/purple-shop.jpeg';
 import pshop2 from '../assets/pshop2.jpeg';
 
 //Backend
-import back1 from '../assets/back1.jpeg';
+import back1 from '../assets/api.jpeg';
 import back2 from '../assets/back2.jpeg';
 
 export const projectsData = [

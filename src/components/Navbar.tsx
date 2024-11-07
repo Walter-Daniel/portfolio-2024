@@ -73,8 +73,13 @@ export const Navbar = () => {
               className='fixed left-0 top-0 w-full h-screen origin-top  bg-black text-white p-10'>
               <div className='flex h-full flex-col'>
                 <div className='flex justify-between'>
-                  <h1 className='text-lg text-stone-100'>WalterDaniel.dev</h1>
-                  <p className='cursor-pointer text-md text-stone-100' 
+                <div className='flex items-center gap-[1ch]'>
+          <div className='bg-purple-600 rounded-full h-5 w-5' />
+          <h1 className='text-md font-semibold tracking-widest uppercase'>
+            purple.dev
+          </h1>
+        </div>
+                  <p className='cursor-pointer text-md text-stone-100 uppercase' 
                       onClick={toggleNavbar}>
                         Close
                   </p>

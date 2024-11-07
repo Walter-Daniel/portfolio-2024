@@ -53,7 +53,7 @@ export const ProjectCard = ({
         <img
           src={project.thumbnail}
           alt={`Screenshot of ${project.title}`}
-          className='rounded-lg shadow-lg md:w-[470px] md:h-[600px] object-cover'
+          className='rounded-lg shadow-lg md:w-[470px] md:h-[600px] object-top'
         />
       </motion.div>
 
