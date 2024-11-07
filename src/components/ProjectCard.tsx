@@ -118,7 +118,7 @@ export const ProjectCard = ({
                 rel='noopener noreferrer'
                 className='bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded transition duration-300 ease-in-out flex items-center'
               >
-                Repo
+                Repositorio
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   className='h-4 w-4 ml-2'
@@ -142,7 +142,7 @@ export const ProjectCard = ({
                 rel='noopener noreferrer'
                 className='bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded transition duration-300 ease-in-out flex items-center'
               >
-                Repo
+                Repositorio
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   className='h-4 w-4 ml-2'
