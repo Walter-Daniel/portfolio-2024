@@ -5,3 +5,4 @@ export { Link } from './Link';
 export { ModalContent } from './ModalContent';
 export { SkillButton } from './SkillButton';
 export { AnimatedTitle } from './AnimatedTitle';
+export { Footer } from './Footer';
