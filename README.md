@@ -45,7 +45,7 @@ VITE_PUBLIC_KEY=tu_public_key
 4. Ejecuta el proyecto en modo desarrollo:
 
  ```bash
-pnpm dev
+pnpm run dev
  ```
 Esto abrirá la aplicación en http://localhost:3000.
 
