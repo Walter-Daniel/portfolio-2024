@@ -13,7 +13,7 @@ const letterAnimation = {
     y: 0,
     transition: {
       delay: i * 0.1, // Retardo para la aparición de cada letra
-      duration: 0.5,
+      duration: 0.3,
       ease: 'easeOut',
     },
   }),

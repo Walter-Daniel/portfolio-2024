@@ -1,4 +1,4 @@
-import { SkillButton } from '../components';
+import { AnimatedTitle, SkillButton } from '../components';
 import { motion } from 'framer-motion';
 import { skillsData } from '../helpers/skills-cards';
 
@@ -8,10 +8,12 @@ export const Skills = () => {
       className='section flex flex-col md:min-h-screen justify-center'
       id='skills'
     >
-      <h2 className='font-bold uppercase flex flex-col font-theNeueBlack mb-10'>
+      {/* <h2 className='font-bold uppercase flex flex-col font-theNeueBlack mb-10'>
         <span className='text-4xl md:text-6xl'>Habilidades y</span>
         <span className='text-4xl md:text-6xl'>Herramientas</span>
-      </h2>
+      </h2> */}
+      <AnimatedTitle text='Habilidades'/>
+      {/* <AnimatedTitle text='Herramientas'/> */}
       <motion.div
         initial='hidden'
         animate='visible'

@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 import { projectsData } from '../helpers/portfolio-data';
-import { ProjectCard } from '../components';
+import { AnimatedTitle, ProjectCard } from '../components';
 
 
 
@@ -21,9 +21,9 @@ export const ProjectsSection = () => {
   return (
     <section className='pt-20' id='projects'>
       <div className='container mx-auto px-4'>
-        <h2 className='font-bold uppercase flex flex-col font-theNeueBlack text-4xl md:text-6xl text-center md:mb-10'>
-          Mis Proyectos
-        </h2>
+        <div className='flex justify-center gap-4'>
+        <AnimatedTitle text='Mis'/> <AnimatedTitle text='Proyectos'/>
+        </div>
         <div className=''>
           {projectsData.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} />
