@@ -21,9 +21,7 @@ export const ProjectsSection = () => {
   return (
     <section className='pt-20' id='projects'>
       <div className='container mx-auto px-4'>
-        <div className='flex justify-center gap-4'>
-        <AnimatedTitle text='Mis'/> <AnimatedTitle text='Proyectos'/>
-        </div>
+        <AnimatedTitle text='Mis Proyectos'/>
         <div className=''>
           {projectsData.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} />

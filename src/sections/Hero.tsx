@@ -22,7 +22,7 @@ const textVariants = {
 
 export const Hero = () => {
   return (
-    <div className='min-h-[100vh] flex justify-around flex-col items-center md:pt-10 lg:pt-0' id='home'>
+    <div className='min-h-[100vh] flex justify-around flex-col items-center pt-10 lg:pt-0' id='home'>
       <div className='grid grid-cols-1 lg:grid-cols-12 md:gap-8'>
 
         <motion.figure 
@@ -56,7 +56,7 @@ export const Hero = () => {
                 className='h-8 text-purple-600'
               />
               <motion.h2 className='text-xl' variants={textVariants}>
-                Purple.dev - Walter Carrizo
+                Walter Carrizo - Purple.dev
               </motion.h2>
             </div>
             <motion.h2

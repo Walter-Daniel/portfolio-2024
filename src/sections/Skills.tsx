@@ -8,13 +8,10 @@ export const Skills = () => {
       className='section flex flex-col md:min-h-screen justify-center'
       id='skills'
     >
-      {/* <h2 className='font-bold uppercase flex flex-col font-theNeueBlack mb-10'>
-        <span className='text-4xl md:text-6xl'>Habilidades y</span>
-        <span className='text-4xl md:text-6xl'>Herramientas</span>
-      </h2> */}
+    
       <AnimatedTitle text='Habilidades'/>
-      {/* <AnimatedTitle text='Herramientas'/> */}
       <motion.div
+      className='pt-10 md:pt-0'
         initial='hidden'
         animate='visible'
         variants={{
