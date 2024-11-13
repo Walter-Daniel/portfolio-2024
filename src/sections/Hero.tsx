@@ -1,4 +1,4 @@
-import profileIMG from '../assets/profile1.jpg';
+import profileIMG from '../assets/profile1.webp';
 import handIcon from '../assets/icons/hand.png';
 import emailIcon from '../assets/icons/email.png';
 import locationIcon from '../assets/icons/location.png';
